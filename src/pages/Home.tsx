@@ -108,7 +108,7 @@ export const Home: React.FC = () => {
                 }}
               >
                 <img 
-                  src="./brand/nexorel-hero-banner.webp" 
+                  src="/brand/nexorel-hero-banner.webp" 
                   alt="NEXOREL: From Idea to Production" 
                   width="2056"
                   height="765"

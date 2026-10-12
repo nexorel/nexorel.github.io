@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img 
-                src="./brand/nexorel-logo-128.webp" 
+                src="/brand/nexorel-logo-128.webp" 
                 alt="NEXOREL" 
                 width="32" 
                 height="32"

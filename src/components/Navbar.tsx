@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
         {/* Brand Link */}
         <Link to="/" className="brand-link" aria-label="NEXOREL Home">
           <img 
-            src="./brand/nexorel-logo-128.webp" 
+            src="/brand/nexorel-logo-128.webp" 
             alt="NEXOREL Logo" 
             className="brand-logo-img"
             width="36"

@@ -76,7 +76,7 @@ export const About: React.FC = () => {
             <div className="card card-gradient-top">
               <div className="flex items-center gap-3 mb-6">
                 <img 
-                  src="./brand/nexorel-logo-128.webp" 
+                  src="/brand/nexorel-logo-128.webp" 
                   alt="NEXOREL" 
                   width="48" 
                   height="48"

@@ -18,44 +18,30 @@
     <meta property="og:url" content="https://nexorel.github.io/" />
     <meta property="og:title" content="NEXOREL — Engineering Studio | Automate. Build. Deploy." />
     <meta property="og:description" content="From idea to git push to production. We build, automate, and secure digital products so your business can move faster—with confidence." />
-    <meta property="og:image" content="./brand/nexorel-hero-banner.webp" />
+    <meta property="og:image" content="https://nexorel.github.io/brand/nexorel-hero-banner.webp" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://nexorel.github.io/" />
     <meta property="twitter:title" content="NEXOREL — Engineering Studio | Automate. Build. Deploy." />
     <meta property="twitter:description" content="From idea to git push to production. Full-Stack Software Engineering, n8n Workflow Automation, and Cloud & DevOps Infrastructure." />
-    <meta property="twitter:image" content="./brand/nexorel-hero-banner.webp" />
+    <meta property="twitter:image" content="https://nexorel.github.io/brand/nexorel-hero-banner.webp" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
-    <link rel="icon" type="image/png" sizes="64x64" href="./favicon-64.png" />
-    <link rel="apple-touch-icon" href="./brand/nexorel-logo-128.webp" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+    <link rel="apple-touch-icon" href="/brand/nexorel-logo-128.webp" />
 
     <!-- Google Fonts Preconnect & Inter / JetBrains Mono / Outfit -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
-
-    <!-- GitHub Pages SPA Redirect handler -->
-    <script>
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&') 
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
   </head>
   <body>
     <!-- Skip to main content for Accessibility -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

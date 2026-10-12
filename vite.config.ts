@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Using relative base so it works on any subdirectory, custom domain, or GitHub Pages
-  base: './',
+  // Root domain for apex GitHub Pages https://nexorel.github.io
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: false,
